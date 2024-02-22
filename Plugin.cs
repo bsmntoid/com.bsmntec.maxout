@@ -81,5 +81,3 @@ namespace com.bsmntec.maxout
         }
     }
 }
-
-
