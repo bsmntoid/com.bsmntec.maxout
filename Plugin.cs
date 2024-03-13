@@ -25,7 +25,7 @@ namespace com.bsmntec.maxout
         private void ButtonUpdate()
         {
             if (MaxOutButton != null) return;
-            if (GameObject.Find("GTTOD") == null) return;
+            if (GameManager.GM == null) return;
             if (GameObject.Find("MiddlePlate") == null) return;
 
             MiddlePlate = GameObject.Find("MiddlePlate");
@@ -66,7 +66,7 @@ namespace com.bsmntec.maxout
         }
         private void Respec()
         {
-            UpgradesManager = GameObject.Find("GTTOD").GetComponent<GTTOD_UpgradesManager>();
+            UpgradesManager = GameObject.FindObjectOfType<GTTOD_UpgradesManager>();;
             foreach (Aspect a in UpgradesManager.Aspects)
             {
                 foreach (Potential p in a.AspectPotential)
