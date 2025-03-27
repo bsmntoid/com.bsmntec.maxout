@@ -2,8 +2,7 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-// DEVELOPED IN BSMNTEC SOFTWARE DIVISION SECTOR 9 FILE 12
-// CC BY-NC-ND BSMNTEC 1924C
+// (c) bsmntoid 2025
 
 namespace com.bsmntec.maxout
 {
